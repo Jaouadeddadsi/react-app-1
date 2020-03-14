@@ -1,0 +1,26 @@
+.item {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+          align-items: flex-start;
+}
+
+.vote {
+  flex-basis: 5%;
+}
+
+.avatar {
+  flex-basis: 10%;
+}
+
+.detail {
+  flex-basis: 80%;
+}
+
+.avatar img {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+}

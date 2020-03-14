@@ -1,0 +1,32 @@
+.item-title {
+  color: rgba(232, 37, 107, 0.6);
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.item-url {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.action-list {
+  padding: 0;
+  margin: 0;
+  margin-top: -20px;
+}
+
+.action-list li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.comments {
+  color: red;
+  font-weight: bold;
+}
+
+.action {
+  color: rgba(0, 0, 0, 0.5);
+}

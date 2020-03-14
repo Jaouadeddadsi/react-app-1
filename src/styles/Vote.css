@@ -1,0 +1,24 @@
+.vote {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  justify-content: space-around;
+  -webkit-box-align: center;
+          align-items: center;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 1.3rem;
+}
+
+.arrow-up {
+  cursor: pointer;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.arrow-down {
+  cursor: pointer;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.3);
+}
